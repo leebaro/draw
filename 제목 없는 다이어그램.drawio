@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T13:10:22.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="4P9vOZgRVbxVv8Nh7S3n" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T13:58:28.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="vWTx7HWfus9W6l9TDovx" version="22.1.8" type="github">
   <diagram name="페이지-1" id="65uPVHIQYmsKwXFldDYE">
-    <mxGraphModel dx="2546" dy="1766" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1756" dy="1329" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,6 +60,90 @@
         </mxCell>
         <mxCell id="WCBGweSs4nGs-buCLOPQ-25" value="그림 6-2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-689" y="-390" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-35" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-689" y="-326" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-36" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-355" y="-318" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-37" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-560" y="-310" as="sourcePoint" />
+            <mxPoint x="-393" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-38" value="쿼리" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="WCBGweSs4nGs-buCLOPQ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-39" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-559" y="-269" as="sourcePoint" />
+            <mxPoint x="-392" y="-269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-40" value="인기 아이템" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="WCBGweSs4nGs-buCLOPQ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-41" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="-327" width="39" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-42" value="웹서비스" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-637" y="-249" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-43" value="그림 6-3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-692" y="-193" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-45" value="인기도 집계" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="-314" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.988;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WCBGweSs4nGs-buCLOPQ-45" target="WCBGweSs4nGs-buCLOPQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-47" value="배치 계산" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-158" y="-340" width="69" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-72" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-693" y="-133" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-73" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-359" y="-125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-74" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-564" y="-117" as="sourcePoint" />
+            <mxPoint x="-397" y="-117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-75" value="쿼리" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="WCBGweSs4nGs-buCLOPQ-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-76" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-563" y="-76" as="sourcePoint" />
+            <mxPoint x="-396" y="-76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-77" value="유사 아이템" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="WCBGweSs4nGs-buCLOPQ-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-78" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="-629" y="-134" width="39" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-79" value="웹서비스" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-641" y="-56" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-80" value="그림 6-4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-696" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-81" value="유사도 집계" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-189" y="-121" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.988;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WCBGweSs4nGs-buCLOPQ-81" target="WCBGweSs4nGs-buCLOPQ-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-83" value="배치 계산" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-162" y="-147" width="69" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
