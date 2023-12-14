@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T13:58:28.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="vWTx7HWfus9W6l9TDovx" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T14:28:26.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="sPIqbvYPaURW-Oc_JX4F" version="22.1.8" type="github">
   <diagram name="페이지-1" id="65uPVHIQYmsKwXFldDYE">
     <mxGraphModel dx="1756" dy="1329" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,6 +144,51 @@
         </mxCell>
         <mxCell id="WCBGweSs4nGs-buCLOPQ-83" value="배치 계산" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-162" y="-147" width="69" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-96" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-686" y="76" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-97" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-98" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-557" y="92" as="sourcePoint" />
+            <mxPoint x="-390" y="92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-99" value="item id&lt;br&gt;user id" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="WCBGweSs4nGs-buCLOPQ-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-100" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-556" y="133" as="sourcePoint" />
+            <mxPoint x="-389" y="133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-101" value="유사 아이템" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="WCBGweSs4nGs-buCLOPQ-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-102" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="-622" y="75" width="39" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-103" value="웹서비스" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-634" y="153" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-104" value="그림 6-5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-689" y="209" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-105" value="유사도 집계" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7" y="89" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.988;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WCBGweSs4nGs-buCLOPQ-105" target="WCBGweSs4nGs-buCLOPQ-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-107" value="배치 계산" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="63" width="69" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-108" value="API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-371" y="84" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
