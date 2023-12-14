@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T03:49:31.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.8" etag="YJkeShUFjtnQKc2Vwo8N" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T03:55:41.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="YZ3TfM7P-189LO88HEAS" version="22.1.8" type="github">
   <diagram name="페이지-1" id="65uPVHIQYmsKwXFldDYE">
-    <mxGraphModel>
+    <mxGraphModel dx="1678" dy="1801" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WCBGweSs4nGs-buCLOPQ-1" target="WCBGweSs4nGs-buCLOPQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-1" value="모델학습" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="-730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WCBGweSs4nGs-buCLOPQ-3" target="WCBGweSs4nGs-buCLOPQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-3" value="특정량 추출 및 업데이트" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-730" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-5" value="예측" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="-730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-7" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-730" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WCBGweSs4nGs-buCLOPQ-5" target="WCBGweSs4nGs-buCLOPQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCBGweSs4nGs-buCLOPQ-11" value="사용자" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-660" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
